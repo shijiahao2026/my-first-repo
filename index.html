@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我的第一个网页 · 施佳豪</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Microsoft YaHei", "微软雅黑", system-ui, sans-serif;
+    background: linear-gradient(160deg, #0b1f3a 0%, #123156 60%, #0e2743 100%);
+    color: #fff; min-height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    max-width: 720px; width: 100%;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(0, 209, 255, 0.35);
+    border-radius: 18px; padding: 40px 36px;
+    backdrop-filter: blur(6px);
+  }
+  .bar { width: 56px; height: 5px; background: #00d1ff; border-radius: 3px; margin-bottom: 22px; }
+  h1 { font-size: 30px; margin-bottom: 12px; letter-spacing: 1px; }
+  .sub { color: #00d1ff; font-size: 15px; margin-bottom: 26px; }
+  ul { list-style: none; }
+  li { padding: 10px 0 10px 24px; position: relative; color: #cfe0f0; font-size: 15px; }
+  li::before { content: "▍"; position: absolute; left: 0; color: #00d1ff; }
+  .foot { margin-top: 30px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.12);
+          font-size: 13px; color: #8ea6bd; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="bar"></div>
+    <h1>你好，这是我的第一个网页 👋</h1>
+    <p class="sub">施佳豪 · 上海大学 · 2026</p>
+    <ul>
+      <li>这个页面托管在 GitHub 上，用 GitHub Pages 发布</li>
+      <li>修改 index.html 后提交，网页就会自动更新</li>
+      <li>接下来可以加：个人介绍、项目经历、联系方式</li>
+    </ul>
+    <div class="foot">
+      由 GitHub Pages 提供托管 · 内容可自由修改
+    </div>
+  </div>
+</body>
+</html>
